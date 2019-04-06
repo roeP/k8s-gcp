@@ -1,0 +1,16 @@
+region = "us-east1"
+project = "gkeproject"
+image_name = "tunity_nginx"
+cluster_name = "tunity-cluster"
+cluster_master_count = 1
+node_pool_name = "tunity-np"
+node_count = 1
+machine_type = "n1-standard-1"
+username = ""
+password = ""
+min_node_count = 1
+max_node_count = 2
+deployment_name = "tunity-deploy"
+#version = "app01"
+replicas = 1
+container_name = "tunity-container"
