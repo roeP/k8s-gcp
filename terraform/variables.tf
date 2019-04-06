@@ -31,7 +31,6 @@ variable "max_node_count" {}
 #-------k8s variables
 
 variable "deployment_name" {}
-#variable "version" {}
 variable "replicas" {}
 variable "container_name" {}
 

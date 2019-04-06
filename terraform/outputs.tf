@@ -1,2 +1,1 @@
-#----root/outputs.tf-----
-
+#TODO output IP's for nodes 

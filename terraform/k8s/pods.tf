@@ -3,7 +3,7 @@ resource "kubernetes_replication_controller" "nginx" {
     name = "nginx-tunity"
 
     labels {
-      app  = "redis"
+      app  = "nginx"
       role = "master"
       tier = "backend"
 }
@@ -13,7 +13,7 @@ resource "kubernetes_replication_controller" "nginx" {
     replicas = 1
 
     selector = {
-      app  = "redis"
+      app  = "nginx"
       role = "master"
       tier = "backend"
 }

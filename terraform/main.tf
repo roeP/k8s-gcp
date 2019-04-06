@@ -31,7 +31,6 @@ module "k8s" {
   client_key             = "${module.gke.client_key}"
   cluster_ca_certificate = "${module.gke.cluster_ca_certificate}"
   deployment_name = "${var.deployment_name}"
-  #version = "${var.version}"
   replicas = "${var.replicas}"
   image_name = "${var.image_name}"
   container_name = "${var.container_name}"
